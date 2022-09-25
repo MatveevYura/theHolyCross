@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"The Holy Cross Brewing Society"
+})
+
+<body>
+  <div class="wrapper">
+    @@include('html/_header.htm',{})
+    <main class="page">
+      <div class="page__main">
+        <div class="main__logo"><img src="@img/bigLogo.jpg" alt="Big logo The Holy Cross Brewing Society"></div>
+        <div class="main__textTitle">Cafe in Frankfurt</div>
+        <div class="main__button">
+          <a class="main__instagram _icon-instagram"
+            href="https://instagram.com/the_holy_cross_brewing_society?igshid=YmMyMTA2M2Y="
+            target="_blank">Instagram</a>
+        </div>
+        <div class="main__slider swiper">
+          <div class="main__wrapper swiper-wrapper">
+
+            <div class="main__slide swiper-slide">
+              <img class="swiper__img" src="@img/carusel/mainPhoto.jpg" alt="">
+            </div>
+            <div class="main__slide swiper-slide">
+              <img class="swiper__img" src="@img/carusel/image0.jpg" alt="">
+            </div>
+            <div class="main__slide swiper-slide">
+              <img class="swiper__img" src="@img/carusel/image1.jpg" alt="">
+            </div>
+            <div class="main__slide swiper-slide">
+              <img class="swiper__img" src="@img/carusel/image2.jpg" alt="">
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </main>
+    @@include('html/_footer.htm',{})
+  </div>
+  @@include('html/_popup.htm',{})
+  @@include('html/_js.htm',{})
+</body>
+
+</html>
