@@ -124,8 +124,12 @@ border: rgb(161, 136, 136) 1px solid;
       }
     }
   }
+  @media (max-width:$mobile){
+    border: 1px solid rgb(255, 255, 255);
+      
+  }
   @media (max-width:$mobileSmall){
-    padding: 25px;
+    padding: 22px;
   }
 }
 

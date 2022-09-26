@@ -192,7 +192,7 @@
 .swiper-button-next:after,
 .swiper-button-prev:after {
 	font-family: swiper-icons;
-	font-size: var(--swiper-navigation-size);
+	font-size: 35px;
 	text-transform: none !important;
 	letter-spacing: 0;
 	text-transform: none;
@@ -203,6 +203,9 @@
 .swiper-rtl .swiper-button-next {
 	left: 30px;
 	right: auto;
+  @media (max-width:767.98px){
+      left: 20px;
+  }
 }
 .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
@@ -212,6 +215,9 @@
 .swiper-rtl .swiper-button-prev {
 	right: 30px;
 	left: auto;
+  @media (max-width:767.98px){
+    right: 20px;
+}
 }
 .swiper-button-next:after,
 .swiper-rtl .swiper-button-prev:after {
