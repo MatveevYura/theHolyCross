@@ -8,31 +8,70 @@
   <div class="wrapper">
     @@include('html/_header.htm',{})
     <main class="page">
-      <div class="page__main">
-        <div class="main__logo"><img src="@img/bigLogo.jpg" alt="Big logo The Holy Cross Brewing Society"></div>
-        <div class="main__textTitle">Cafe in Frankfurt</div>
-        <div class="main__button">
-          <a class="main__instagram _icon-instagram"
-            href="https://instagram.com/the_holy_cross_brewing_society?igshid=YmMyMTA2M2Y="
-            target="_blank">Instagram</a>
-        </div>
-        <div class="main__slider swiper">
-          <div class="main__wrapper swiper-wrapper">
+      <div class="page__container">
+        <div class="page__main">
+          <div class="main__logo"><img src="@img/bigLogo.jpg" alt="Big logo The Holy Cross Brewing Society"></div>
+          <div class="main__textTitle">Cafe in Frankfurt</div>
+          <div class="main__button">
+            <a class="main__instagram _icon-instagram"
+              href="https://instagram.com/the_holy_cross_brewing_society?igshid=YmMyMTA2M2Y="
+              target="_blank">Instagram</a>
+          </div>
 
-            <div class="main__slide swiper-slide">
-              <img class="swiper__img" src="@img/carusel/mainPhoto.jpg" alt="">
+          <div class="main__slider swiper">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="main__wrapper swiper-wrapper">
+              <div class="main__slide swiper-slide">
+                <img class="swiper__img" src="@img/carusel/mainPhoto.jpg" alt="">
+
+              </div>
+              <div class="main__slide swiper-slide">
+                <img class="swiper__img" src="@img/carusel/image0.jpg" alt="">
+              </div>
+              <div class="main__slide swiper-slide">
+                <img class="swiper__img" src="@img/carusel/image1.jpg" alt="">
+              </div>
+              <div class="main__slide swiper-slide">
+                <img class="swiper__img" src="@img/carusel/image2.jpg" alt="">
+              </div>
+
             </div>
-            <div class="main__slide swiper-slide">
-              <img class="swiper__img" src="@img/carusel/image0.jpg" alt="">
+
+            <div class="swiper-pagination"></div>
+
+          </div>
+
+        </div>
+        <div class="contacts">
+          <div class="contacts__hr"></div>
+          <div class="contacts__title">CONTACT US</div>
+          <div class="contacts__map">
+            <iframe class="contacts__map-iframe"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2558.7232305039042!2d8.684994751454994!3d50.110187219603624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd0ea6b2c92713%3A0xf3ffca4bcc56c140!2sThe%20Holy%20Cross%20Brewing%20Society!5e0!3m2!1suk!2sua!4v1664204324887!5m2!1suk!2sua"
+              style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+          <div class="contacts__block">
+            <div class="contacts__item">
+              <div class="contacts__address-title">Address</div>
+              <a href="https://www.google.com/maps/dir//The+Holy+Cross+Brewing+Society,+Fahrgasse+7,+60311+Frankfurt+am+Main,+%D0%9D%D1%96%D0%BC%D0%B5%D1%87%D1%87%D0%B8%D0%BD%D0%B0/@50.1101838,8.6871888,17z/data=!4m16!1m6!3m5!1s0x47bd0ea6b2c92713:0xf3ffca4bcc56c140!2sThe+Holy+Cross+Brewing+Society!8m2!3d50.1101838!4d8.6871888!4m8!1m0!1m5!1m1!1s0x47bd0ea6b2c92713:0xf3ffca4bcc56c140!2m2!1d8.6871888!2d50.1101838!3e3"
+                class="contacts__address-button" target="_blank">GET DIRECTIONS</a>
+              <div class="contacts__address-adress contacts__address-adress1">Fahrgasse 76</div>
+              <div class="contacts__address-adress">60311 Frankfurt am Main</div>
+              <div class="contacts__address-adress">Germany</div>
             </div>
-            <div class="main__slide swiper-slide">
-              <img class="swiper__img" src="@img/carusel/image1.jpg" alt="">
-            </div>
-            <div class="main__slide swiper-slide">
-              <img class="swiper__img" src="@img/carusel/image2.jpg" alt="">
+            <div class="contacts__item">
+              <div class="contacts__hours-title">Business Hours</div>
+              <div class="contacts__hours-mon">Monday: 9:00 - 18:00</div>
+              <div class="contacts__hours-mon">Tuesday: 9:00 - 18:00</div>
+              <div class="contacts__hours-mon">Wednesday: 9:00 - 18:00</div>
+              <div class="contacts__hours-mon">Thursday: 9:00 - 18:00</div>
+              <div class="contacts__hours-mon">Friday: 9:00 - 18:00</div>
+              <div class="contacts__hours-mon">Saturday: 10:00 - 18:00</div>
+              <div class="contacts__hours-mon">Sunday: 10:00 - 18:00</div>
             </div>
           </div>
-          <div class="swiper-pagination"></div>
         </div>
       </div>
     </main>

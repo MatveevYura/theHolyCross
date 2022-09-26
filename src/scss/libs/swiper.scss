@@ -173,8 +173,8 @@
 .swiper-button-prev {
 	position: absolute;
 	top: 50%;
-	width: calc(var(--swiper-navigation-size) / 44 * 27);
-	height: var(--swiper-navigation-size);
+	width: rem(40);
+	height: rem(40);
 	margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
 	z-index: 10;
 	cursor: pointer;
@@ -201,7 +201,7 @@
 }
 .swiper-button-prev,
 .swiper-rtl .swiper-button-next {
-	left: 10px;
+	left: 30px;
 	right: auto;
 }
 .swiper-button-prev:after,
@@ -210,7 +210,7 @@
 }
 .swiper-button-next,
 .swiper-rtl .swiper-button-prev {
-	right: 10px;
+	right: 30px;
 	left: auto;
 }
 .swiper-button-next:after,
